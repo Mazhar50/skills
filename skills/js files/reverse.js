@@ -7,11 +7,11 @@ function reverseString(str){
     return reverse;
 }
 
-var statement= "hello alien ami mifta";
+var statement= "hello alien ";
 var forAlien = reverseString(statement);
 
 console.log(forAlien);
 
 
-var ultamatmu = reverseString("ami ekn ulta matmu");
+var ultamatmu = reverseString("reverse string on");
 console.log(ultamatmu);

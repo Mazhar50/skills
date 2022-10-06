@@ -1,4 +1,4 @@
-var speech ="I am  a good  persone. I can cross       my limit";
+var speech ="I am  a good  person. I can cross       my space";
     var space = 0;
 for( var i = 0; i < speech.length; i++){
     var char = speech[i];

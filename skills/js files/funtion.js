@@ -1,34 +1,33 @@
-  function amimithila(){
-      console.log("mithila1");
-      console.log("mithila2");
-      console.log("mithila3-");
-      console.log("mithila4");
-      console.log("mithila5");
+  function amimifta(){
+      console.log("mifta1");
+      console.log("mifta2");
+      console.log("mifta3-");
+      console.log("mifta4");
+      console.log("mifta5");
   }
 
 
   var sokal = "nasta";
   console.log(sokal);
-  amimithila();
+  amimifta();
 
   var dupur = "clg e gelam";
   console.log(dupur);
-  amimithila();
+  amimifta();
 
   var bikal = "online class korlam";
   console.log(bikal);
-  amimithila();
+  amimifta();
 
   var sondha = "bondhu rar loge mamut gelam";
   console.log(sondha);
-  amimithila();
+  amimifta();
 
   var raat = "fb whatsapp e chatting korlam";
   console.log(raat);
-  amimithila();
+  amimifta();
 
 
- peara metar and retrun funtion
 
 function doubleit(num){
      var result = num * 2;
