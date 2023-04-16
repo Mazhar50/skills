@@ -1,5 +1,5 @@
 function myFunction() {
-    var brick = 90;
+    var brick = 75;
     var numBricks = document.getElementById("numBricks").value;
     var e = document.getElementById("brickFace");
     var faceBrick = e.options[e.selectedIndex].value;
