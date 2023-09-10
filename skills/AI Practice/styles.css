@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #949494;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .logo img {
+    max-height: 20px;
+    margin-right: 5px;
+  }
+
+  .navbar a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .right-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-box {
+    margin-right: 10px;
+  }
+  /*this is hero section container css*/
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .carousel img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .carousel img:first-child {
+    display: block;
+  }
